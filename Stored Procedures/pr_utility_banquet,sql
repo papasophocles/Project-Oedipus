@@ -1,0 +1,19 @@
+-- Example Stored Procedure
+
+CREATE PROCEDURE [dbo].[pr_utility_banquet] (    
+       @setValue1 int,    
+       @setValue2 int,    
+       @setValue varchar(max) output
+       )    
+    
+AS    
+BEGIN  
+ 
+SET NOCOUNT ON
+
+/*    
+CREATED: 12/15/2016
+DESCRIPTION:	
+MODIFICATIONS:    
+     
+*/  
